@@ -1,1 +1,124 @@
-/Users/many/Library/Application Support/VSCodium/User/settings.json
+/*
+Created for VSCodium v1.97.2 for MacOS
+*/
+
+{
+    // === EDITOR
+    "editor.fontFamily": "Monolisa",
+    "editor.lineHeight": 1.8,
+    "editor.fontLigatures": true,
+    "editor.guides.indentation": false,
+    "custom-ui-style.font.sansSerif": "MonoLisa",
+    "editor.minimap.enabled": true,
+    "editor.scrollbar.horizontal":"hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.overviewRulerBorder": false,
+    "editor.renderLineHighlight": "none",
+    "editor.stickyScroll.enabled": false,
+    "editor.showFoldingControls": "never",
+    "editor.renderWhitespace": "none",
+    "editor.occurrencesHighlight": "off",
+    "editor.selectionHighlight": false,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "git.decorations.enabled": false,
+    "scm.diffDecorations": "none",
+    "breadcrumbs.enabled": false,
+    // === EDITOR
+
+    // === CURSOR
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.cursorBlinking": "solid",
+    "editor.cursorStyle": "block",
+    "workbench.colorCustomizations": {
+        "editorCursor.background": "#000000"
+    },
+    // === CURSOR
+
+    // === WORKBENCH
+    "workbench.iconTheme": "symbols",
+    "workbench.colorTheme": "Rosé Pine (no italics)",
+    "workbench.activityBar.location": "hidden",
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.tabActionCloseVisibility": false,
+    "workbench.statusBar.visible": false,
+    "workbench.tips.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.sideBar.location": "right",
+    "window.customTitleBarVisibility": "never",
+    "window.titleBarStyle": "native",
+    "custom-ui-style.electron": {
+        "frame": false
+    },
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    // === WORKBENCH
+
+    // === EXPLORER
+    "symbols.hidesExplorerArrows": false,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.decorations.badges": false,
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.tree.indent": 16,
+    // === EXPLORER
+
+    // === CUSTOM UI EXTENSION
+    // Experimental - Could stop working
+    // "custom-ui-style.electron": {
+    //     "titleBarStyle": "hiddenInset",
+    //     "trafficLightPosition": {
+    //         "x": 20,
+    //         "y": 10
+    //     },
+    // },
+    "custom-ui-style.stylesheet": {
+        ".monaco-editor-hover .monaco-hover .monaco-hover-content .monaco-resizable-hover": "padding: 10px !important; border: none !important; border-radius: 20px !important",
+        ".notification-toast": "box-shadow: none !important",
+        ".quick-input-widget.show-file-icons": "box-shadow: none !important",
+        ".quick-input-widget": "top: 25vh !important",
+        ".quick-input-list .scrollbar": "display: none",
+        // ".quick-input-titlebar": "background: #100B15 !important",
+        ".monaco-action-bar.quick-input-inline-action-bar": "display: none",
+        ".editor-widget.find-widget": "box-shadow: none; border-radius: 4px;",
+        ".monaco-workbench .part.editor > .content .editor-group-container > .title.title-border-bottom:after": "display: none",
+        ".monaco-scrollable-element > .shadow.top": "display: none",
+        ".sidebar .title-label": "padding: 0 !important",
+        ".sidebar": "border: none !important",
+        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+        ".monaco-list-row.focused": "outline: none !important",
+        ".monaco-editor .scroll-decoration": "display: none",
+        ".title-actions": "display: none !important",
+        ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
+        ".title .monaco-icon-label:after": "margin-right: 0",
+        ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
+        ".title .monaco-icon-label.file-icon": "margin: 0 10px;",
+        ".monaco-workbench": {
+            "&:not(.fullscreen)": {
+                // Allow dragging on the activity-bar, status-bar, tabs-container, side-bar title...
+                ".activitybar, .statusbar, .tabs-container, .sidebar .composite.title": {
+                    "-webkit-app-region": "drag",
+
+                // ...but still allow to click actions and items without dragging.
+                    ".content .monaco-action-bar, .statusbar-item, .tab, .title .title-actions .action-label": {
+                        "-webkit-app-region": "no-drag"
+                    }
+                }
+            },
+        },
+    },
+    // === CUSTOM UI EXTENSION
+
+    // === TERMINAL
+    "terminal.explorerKind": "external",
+    "terminal.external.linuxExec": "kitty",
+    "terminal.external.osxExec": "Kitty.app",
+    // === TERMINAL
+
+    // === MISCELLANOUS
+    "update.mode": "none",
+    "extensions.ignoreRecommendations": true,
+    "security.workspace.trust.untrustedFiles": "open"
+}
